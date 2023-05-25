@@ -4,7 +4,7 @@ tailwindcss + Sass の hans-on 用のrepository です。
 
 Quick Start のみで hans-on 用の環境を構築できます。
 
-興味がある方は、環境構築方法も記述しましたので参考ください。
+環境構築方法も記述しました。興味がある方は参考ください。
 
 # Quick Start
 
@@ -26,6 +26,9 @@ npm run watch
 
 
 ターミナル.app にて ``` controle + c ``` で tailwindcss watch を終了します。
+
+
+以下に環境構築方法があります。興味がある方は参考ください。
 
 
 
