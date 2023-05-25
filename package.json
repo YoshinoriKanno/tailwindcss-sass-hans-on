@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-sass-hans-on",
+  "version": "1.0.0",
+  "description": "## 作業ディレクトリの作成",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run watch:sass & npm run watch:tailwindcss",
+    "watch:tailwindcss": "npx tailwindcss -i ./src/tailwindcss-input.css -o ./dist/styles/tailwind.css --watch",
+    "watch:sass": "sass --no-source-map --watch src/styles/:dist/styles/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "18.16.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2"
+  }
+}
