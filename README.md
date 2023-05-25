@@ -1,5 +1,40 @@
 # tailwindcss + Sass の hans-on
 
+tailwindcss + Sass の hans-on 用のrepository です。
+
+Quick Start のみで hans-on 用の環境を構築できます。
+
+興味がある方は、環境構築方法も記述しましたので参考ください。
+
+# Quick Start
+
+こちらの repository から Download ZIP して解凍してください。
+
+finder で解凍したフォルダを右クリックして「フォルダに新規ターミナル」を選択、
+
+ターミナル.app で node package をインストールします。
+
+```sh
+npm install
+```
+tailwindcss と Sass コンパイラーがインストールされますので、
+コマンドでファイルの変更を監視してください。
+
+```sh
+npm run watch
+```
+
+
+ターミナル.app にて ``` controle + c ``` で tailwindcss watch を終了します。
+
+
+
+
+# 環境構築
+
+環境構築の方法は以下を確認してください。
+
+
 ## 作業ディレクトリの作成
 
 今回はデスクトップに作成します。
