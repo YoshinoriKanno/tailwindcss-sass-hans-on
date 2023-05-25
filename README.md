@@ -26,7 +26,7 @@ dist フォルダを作成して、その中に index.html を作成しjます�
 mkdir dist && touch dist/index.html
 ```
 
-index.html の内容です。
+index.html の内容を下記のように書き換えてください。
 ```html
 <!DOCTYPE html>
 <html lang="ja">
@@ -36,8 +36,8 @@ index.html の内容です。
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="tailwind.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/tailwind.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
