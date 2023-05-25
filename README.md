@@ -1,4 +1,4 @@
-# tailwindcss + sass の hans-on
+# tailwindcss + Sass の hans-on
 
 ## 作業ディレクトリの作成
 
@@ -225,11 +225,11 @@ npm run watch:tailwindcss
 
 index.html の
 ```html
-<h1>Hello World</h1>
+<h1>Hello tailwindcss + Sass</h1>
 ```
 を
 ```html
-<h1 class="text-center">Hello World</h1>
+<h1 class="text-center">Hello tailwindcss + Sass</h1>
 ```
 としてください。
 
