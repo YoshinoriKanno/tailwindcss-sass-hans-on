@@ -14,24 +14,50 @@ finder で解凍したフォルダを右クリックして「フォルダに新�
 
 ターミナル.app で node package をインストールします。
 
+
+
 ```sh
 npm install
 ```
-tailwindcss と Sass コンパイラーがインストールされますので、
-コマンドでファイルの変更を監視してください。
+tailwindcss と Sass コンパイラーがインストールされます。
+
+## watch の実行
+
+下記コマンドでファイルの変更を監視してください。
 
 ```sh
 npm run watch
 ```
 
+index.html の
+```html
+<h1>Hello tailwindcss + Sass</h1>
+```
+
+を
+
+```html
+<h1 class="text-center">Hello tailwindcss + Sass</h1>
+```
+
+とクラスを追加してみてください。
+
+```dist/tailwind.css``` に
+
+```
+.text-center {
+  text-align: center;
+}
+```
+が追記されます。
+
+```src/styles/style.scss``` を編集すると、```dist/styles/``` に ```style.css``` が作成されます。
+
+### watch の終了
 
 ターミナル.app にて ``` controle + c ``` で tailwindcss watch を終了します。
 
-
 以下に環境構築方法があります。興味がある方は参考ください。
-
-
-
 
 # 環境構築
 
@@ -252,37 +278,6 @@ package.json に npm script を追記します。
 },
 ```
 
-## tailwindcss の実行
-
-ターミナル.app にて下記コマンドを実行してください。
-
-
-```sh
-npm run watch:tailwindcss
-```
-
-index.html の
-```html
-<h1>Hello tailwindcss + Sass</h1>
-```
-を
-```html
-<h1 class="text-center">Hello tailwindcss + Sass</h1>
-```
-としてください。
-
-```dist/tailwind.css``` に
-```
-.text-center {
-  text-align: center;
-}
-```
-が追記されます。
-
-
-### tailwindcss watch の終了
-
-ターミナル.app にて ``` controle + c ``` で tailwindcss watch を終了します。
 
 ## SASS の環境設定
 
@@ -318,17 +313,6 @@ npm scripts に sass の実行コマンドを追記します。
 
 ```
 
-### SASS watch の実行コマンド
-
-```sh
-npm run watch:sass
-```
-
-```dist/styles/``` に ```style.css``` がさくせされます。
-
-### sass watch の終了
-
-ターミナル.app にて ``` controle + c ``` で sass watch を終了します。
 
 
 
